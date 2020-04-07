@@ -1,0 +1,18 @@
+phase0:setup
+
+phase1:play
+    while(hogehoge){
+	<TURN>
+	#TURNはフィールドとしてプレイヤーを持つ（手番のプレイヤー）
+	player:p
+	before_roll
+	while(){
+	}
+	roll = dice.roll()
+	if(roll == 7){
+	    p.move_robber()
+	    if(robber.position.owners != EMPTY)
+	}else{}
+    }
+
+phase2:
